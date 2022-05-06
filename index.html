@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=<link rel= "preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+   <div class="container">
+       <div class="header">
+       <h2>Titulo Formulário</h2>
+
+       <form id="forml" class="form">
+           <div class="form-control">
+
+            <label for="mensagem">Digite uma mensagem</label>
+               <input type="text" id="mensagem">
+              
+               <h4>Selicione apenas uma opção</h4>
+               <div>
+                <input type="radio" id="cifra" name="bot"checked>
+                <label for="cifra">Cifra de César</label>
+              </div>
+
+              <div>
+                <input type="radio" id="base" name="bot">
+                <label for="base">Base64</label>
+              </div>
+
+              <div id="inserir">
+                
+              </div>
+
+              <h4>Selicione apenas uma opção</h4>
+
+              <div>
+                <input type="radio" id="criptografar" name="btn" value="criptografar">
+                <label for="criptografar">Criptografar</label>
+              </div>
+
+              <div>
+                <input type="radio" id="descriptografar" name="btn" value="descriptografar">
+                <label for="descriptografar">Descriptografar</label>
+              </div>
+
+              <div id="resultado">
+
+              </div>
+
+              <div>
+                <button id="confirm">Confirmar</button>
+              </div>
+           
+           </div>
+        </form>
+       </div>
+   </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
